@@ -1,0 +1,16 @@
+// two numbers and operations, this program compares them 
+#include <iostream>
+int main() {
+    int val1, val2;
+    int sum, difference, product;
+    double ratio;
+    std::cout<<"Please enter the values for 2 numbers:"<<std::endl;
+    std::cin>>val1>>val2;
+    if(val1==val2)
+        std::cout<<"Both numbers are equal"<<std::endl;
+    if(val1>val2)
+        std::cout<<val1<<" is bigger than "<<val2<<std::endl;
+    else
+        std::cout<<val2<<" is bigger than "<<val1<<std::endl;
+    return 0;
+}
