@@ -33,7 +33,7 @@ if(isPrime(15)) :
     print(" true") 
 else : 
     print(" false") 
-  if(isPrime(16)) : 
+  if(isPrime(18)) : 
     print(" true") 
 else : 
     print(" false") 
