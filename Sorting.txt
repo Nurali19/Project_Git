@@ -1,4 +1,4 @@
-//This is just a sorting algorith for three integer values
+//This is just a sorting algorithm for three integer values
 #include <iostream>
 int main() {
     int val1=0, val2=0, val3=0;
