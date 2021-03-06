@@ -12,5 +12,11 @@ int main() {
         std::cout<<val1<<" is bigger than "<<val2<<std::endl;
     else
         std::cout<<val2<<" is bigger than "<<val1<<std::endl;
+    sum=val1+val2;
+    difference=val1-val2;
+    product=val1*val2;
+    ratio=val1/val2;
+    std::cout<< sum<<"\n"<<difference<<"\n"<<product<<"\n"<<ratio<<"\n";
+
     return 0;
 }
