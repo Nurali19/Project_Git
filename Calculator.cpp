@@ -13,6 +13,8 @@ int main() {
         std::cout<<val1<<" -"<<val2<<" = "<<val1-val2<<"\n";
     if (operation== "/")
         std::cout<<val1<<" / "<<val2<<" = "<<val1/val2<<"\n";
+    if (operation =="%")
+        std::cout<<val1<<" / "<<val2<<" = "<<val1/val2<<"\n";
     else
         std::cout<<"Input is invalid"<<std::endl;
     return 0;
