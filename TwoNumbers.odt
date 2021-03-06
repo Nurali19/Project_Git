@@ -2,7 +2,7 @@
 #include <iostream>
 int main() {
     int val1, val2;
-    int sum, difference, product;
+    int sum, difference, product,modulo;
     double ratio;
     std::cout<<"Please enter the values for 2 numbers:"<<std::endl;
     std::cin>>val1>>val2;
@@ -17,6 +17,13 @@ int main() {
     product=val1*val2;
     ratio=val1/val2;
     std::cout<< sum<<"\n"<<difference<<"\n"<<product<<"\n"<<ratio<<"\n";
+    sum=val1+val2;
+    difference=val1-val2;
+    product=val1*val2;
+    ratio=val1/val2;
+    modulo=val1%val2;
+    std::cout<< sum<<"\n"<<difference<<"\n"<<product<<"\n"<<ratio<<"\n"<<modulo<<"\n";
+    
 
     return 0;
 }
