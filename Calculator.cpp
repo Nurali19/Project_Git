@@ -18,5 +18,7 @@ int main() {
         std::cout<<val1<<" / "<<val2<<" = "<<val1/val2<<"\n";
     else
         std::cout<<"Input is invalid"<<std::endl;
+
+        std::cout<<"Version 2.0"<<std::endl;
     return 0;
 }
